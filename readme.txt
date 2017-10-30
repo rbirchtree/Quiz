@@ -1,0 +1,1 @@
+A quiz to test abstract knowledge of finance and economics.

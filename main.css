@@ -1,0 +1,117 @@
+h1, input{
+	font-family: Georgia, serif;
+	
+}
+img{
+  padding: 15px;
+  border: black solid 1px;
+  width:400px;
+  display:block;
+  margin: auto auto;
+}
+
+.wrong {
+	background-color: #ED3B3B;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.right{
+	background-color: #8ECF61;
+	padding: 5px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+form{
+	margin: auto;
+	text-align: left;
+	width:350px;
+	margin-bottom:10px;
+}
+h1{
+	padding: 5%;
+	text-align: center;
+}
+legend{
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+input{
+	float: left;
+	display: inline-block;
+}
+.quiz, main{
+	width: 350px;
+/*	margin-left: 25%;
+	margin-right: 25%;*/
+	border: black 1px solid;
+	margin-bottom: 20px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.status{
+	padding-top: 10px;
+	text-align: center;
+	display: hidden;
+}
+.buttons{
+  display: hidden;
+  text-align: center;
+  padding: 5px 15px;
+}
+footer{
+  position: fixed;
+  top: 90%;
+}
+.submitted {
+  font-weight: bold;
+}
+.previous, .next {
+  font-style: italic;
+}
+@media only screen and (min-width: 640px) {
+  /* 3 columns, 3/12 in % */
+  h1 {
+    color: #7CFC00;
+  }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
